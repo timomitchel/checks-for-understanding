@@ -33,6 +33,7 @@ The path we give it in the create method in the controller with our render or re
 <%=form_for @horse do |f|%>
 <%=f.label :name%>
 <%=f.text_area :name%>
+<%=f.submit%>
 <%end%>
 
 
